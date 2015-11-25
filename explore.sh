@@ -12,7 +12,6 @@ XMAX=1107
 YMIN=1069
 YMAX=1112
 
-mkdir 1608
 for x in `seq $XMIN $XMAX`; do
     for y in `seq $YMIN $YMAX`; do
         echo "http://xkcd.com/1608/${x}:-${y}+s.png"
